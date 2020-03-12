@@ -1,0 +1,69 @@
+body { 
+font-family: 'Lato', sans-serif !important;
+}
+.form-inline .form-control{
+
+	width:600px;
+}
+@media(min-width:576px){
+	.card-columns{
+		column-count:2;
+	}
+}
+@media(min-width:768px){
+	.card-columns{
+		column-count:3;
+	}
+}
+@media (min-width: 992px) {
+	.card-columns{
+		column-count:4;
+	}
+}
+.sort{
+	right:10px;
+}
+.wpis-header{
+
+	
+	
+	height: 550px;
+	text-align:center;
+	position: relative;
+	
+	background-size: cover !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	
+	
+}
+
+.tytul-wpisu{
+	padding-top:225px;
+	color:white;
+}
+.wpis_body{
+	background-color: #F6F6F6;
+}
+.wpis{
+	border: 1px solid #efefef;
+	background-color: white;
+}
+.podpis{
+	padding-top:10px;
+}
+.nav-item{
+	margin-top:8px;
+}
+.nav-pills .nav-link.active{
+	background-color:#3c3842;
+}
+.bg-dark{
+	background-color:#a52f2f !important;
+}
+.nav a{
+	color:white;
+}
+a{
+	color:#0868d4;
+}
